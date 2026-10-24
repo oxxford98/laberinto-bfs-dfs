@@ -102,7 +102,7 @@ def dfs_camino(grafo, inicio, objetivo):
                 pila.append(vecino)
     return None
 
-
+#
 def costo_de_celda(laberinto, posicion):
     """Devuelve el costo de entrar a una celda."""
     valor = laberinto[posicion[0]][posicion[1]]
